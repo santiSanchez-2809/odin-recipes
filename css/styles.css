@@ -1,0 +1,62 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.recipe-name{
+    text-align: center;
+}
+
+.recipe-button,
+.home-button{
+    display:inline-block;
+    background-color: yellowgreen;
+    border: dotted;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.Description,
+.Ingredients,
+.Steps{
+    border:5px black dotted;
+    background-color: yellowgreen;
+    margin: 25px;
+    padding: 30px;
+}
+
+.img-container{
+    border: 5px black dotted; 
+    padding: 50px;
+    margin: auto 150px;
+    background-color:chocolate;
+
+}
+
+.page-title{
+    font-size: 50px;
+    color:white;
+    background-color:cornflowerblue;
+    text-align: center;
+    border: 5px dotted black;
+    margin: auto 100px;
+}
+
+.recipes-list{
+    font-size: 20px;
+    text-align:start;
+}
+
+
+.food-img{
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: 0 auto 0;
+}
+
+li{
+    margin: 2px auto;
+}
